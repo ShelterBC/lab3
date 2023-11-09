@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Monaco', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.2rem;
+  gap: 1.2rem;
+}
+
+html,
+body,
+.container {
+  height: 100vh;
+}
+
+h5 {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+label {
+  text-align: center;
+}
+
+.render-section {
+  width: 100%;
+  height: 93%;
+}
+
+.conf-panel-section {
+  height: 7%;
+  font-size: 1.6rem;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 2.4rem
+}
+
+.border {
+  border: 1px solid #8c8c8c;
+  border-radius: 5px;
+  padding: 1.2rem;
+}
+
+.scale,
+.radius,
+.landslide{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.rotation{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: end;
+}
+
+.animation {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+
+.animation label {
+  margin-left: 0.4rem;
+}
+
+fieldset div {
+  width: 100%;
+  margin-bottom: 0.4rem;
+  padding: 0.2rem;
+}
+
+.input--num {
+  width: 80%;
+}
+
+.btn {
+  width: 100%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.2rem
+}
+
+.animation--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-container div {
+  flex: 0 0 0;
+}

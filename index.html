@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Lab3</title>
+  <link href='style.css' rel='stylesheet'>
+</head>
+<body>
+<div class='container'>
+  <section class='render-section'>
+    <canvas class='canvas'>
+      <p>Add suitable fallback here.</p>
+    </canvas>
+  </section>
+  <section class='conf-panel-section'>
+    <div class="border">
+      <h5>Landslide</h5>
+      <div class='landslide'>
+        <div>
+          <label for='land_x'>X:</label>
+          <input class='input--num' id='land_x' type='number'>
+        </div>
+        <div>
+          <label for='land_y'>Y:</label>
+          <input class='input--num' id='land_y' type='number'>
+        </div>
+      </div>
+    </div>
+    <div class="border">
+      <h5>Rotation</h5>
+      <div class='rotation'>
+        <div>
+          <label for='rot_x'>X:</label>
+          <input class='input--num' id='rot_x' type='number'>
+        </div>
+        <div>
+          <label for='rot_y'>Y:</label>
+          <input class='input--num' id='rot_y' type='number'>
+        </div>
+        <div>
+          <label for='rot_angle'>A:</label>
+          <input class='input--num' id='rot_angle' type='number'>
+        </div>
+      </div>
+    </div>
+    <div class="btn-container">
+      <div class="animation--container">
+        <input type="checkbox" id="sk"/>
+        <label for="sk">Lines</label>
+      </div>
+      <button class='btn btn--animation'>Animation</button>
+      <button class='btn btn--render'>Render</button>
+    </div>
+  </section>
+</div>
+<script type="module" src='script.js' defer></script>
+</body>
+</html>
